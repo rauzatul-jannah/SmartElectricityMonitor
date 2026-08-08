@@ -1,0 +1,157 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Smart Electricity Monitor</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+
+    <header class="navbar">
+      <div class="logo">⚡ Smart Electricity Monitor</div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#">Login</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tagline">SMART ENERGY MANAGEMENT</p>
+
+        <h1>
+          Monitor Your Electricity.
+          <span>Control Your Bill.</span>
+        </h1>
+
+        <p class="description">
+          Track your electricity usage, understand where you're consuming the
+          most energy, and discover simple ways to reduce your electricity bill.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary"> Start Monitoring → </a>
+
+          <a href="#how-it-works" class="btn-secondary"> Learn More </a>
+        </div>
+      </div>
+
+      <!-- Electricity Card -->
+
+      <div class="energy-card">
+        <div class="card-header">
+          <span>⚡ Today's Usage</span>
+          <span class="status">● LIVE</span>
+        </div>
+
+        <div class="usage-number">8.6 <small>kWh</small></div>
+
+        <p class="usage-text">Electricity consumed today</p>
+
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+
+        <div class="card-footer">
+          <span>Daily Target</span>
+          <strong>10 kWh</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <p>WHY SMART MONITORING?</p>
+
+        <h2>Understand Your Electricity Usage</h2>
+      </div>
+
+      <div class="feature-container">
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+
+          <h3>Track Usage</h3>
+
+          <p>Monitor daily, weekly and monthly electricity consumption.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+
+          <h3>Estimate Your Bill</h3>
+
+          <p>Calculate your estimated electricity bill based on your usage.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💡</div>
+
+          <h3>Save Electricity</h3>
+
+          <p>
+            Find appliances consuming the most electricity and reduce
+            unnecessary usage.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="section-heading">
+        <p>HOW IT WORKS</p>
+
+        <h2>Start Saving in 3 Simple Steps</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+
+          <h3>Add Appliances</h3>
+
+          <p>Add appliances such as AC, fan, refrigerator, TV and lights.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">02</div>
+
+          <h3>Enter Usage</h3>
+
+          <p>Enter the power rating and approximate daily usage.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">03</div>
+
+          <h3>Monitor & Save</h3>
+
+          <p>Analyze your consumption and take action to reduce your bill.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <p>© 2026 Smart Electricity Monitor</p>
+
+      <p>Smart usage. Lower bills. Better future. 🌱</p>
+    </footer>
+  </body>
+</html>

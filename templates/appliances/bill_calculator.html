@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Electricity Bill Calculator</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f7f9;
+        margin: 0;
+        padding: 40px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      label {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+
+      input {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+      }
+
+      button {
+        width: 100%;
+        margin-top: 25px;
+        padding: 13px;
+        border: none;
+        border-radius: 6px;
+        background: #168aad;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .result {
+        margin-top: 25px;
+        padding: 20px;
+        background: #eef7f9;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .result h2 {
+        margin-bottom: 10px;
+      }
+
+      .back {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>💰 Electricity Bill Calculator</h1>
+
+      <p>Enter your electricity rate per unit.</p>
+
+      <form method="POST">
+        {% csrf_token %}
+
+        <label> Electricity Rate (₹ per unit) </label>
+
+        <input
+          type="number"
+          name="rate"
+          step="0.01"
+          min="0"
+          placeholder="Example: 6"
+          required
+        />
+
+        <button type="submit">Calculate Bill</button>
+      </form>
+
+      {% if monthly_usage %}
+
+      <div class="result">
+        <h2>Estimated Monthly Bill</h2>
+
+        <p>
+          Monthly Consumption:
+          <strong>{{ monthly_usage|floatformat:2 }} kWh</strong>
+        </p>
+
+        <p>
+          Rate:
+          <strong>₹{{ rate|floatformat:2 }} / unit</strong>
+        </p>
+
+        <h2>₹{{ bill|floatformat:2 }}</h2>
+      </div>
+
+      {% endif %}
+
+      <a class="back" href="{% url 'appliance_list' %}">
+        ← Back to My Appliances
+      </a>
+    </div>
+  </body>
+</html>
