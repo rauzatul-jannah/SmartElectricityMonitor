@@ -26,3 +26,19 @@ electricity costs.
 - **Frontend:** HTML, CSS, JavaScript
 - **Database:** SQLite
 - **Development Tool:** Visual Studio Code
+
+## 📂 Project Structure
+
+```text
+Smart_Electricity_Monitor/
+├── smartelectricitymonitor/
+│   ├── accounts/
+│   ├── appliances/
+│   ├── billing/
+│   ├── dashboard/
+│   ├── smartelectricitymonitor/
+│   └── manage.py
+├── static/
+├── templates/
+├── .gitignore
+└── README.md
