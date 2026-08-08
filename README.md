@@ -19,3 +19,10 @@ electricity costs.
 - 💰 Calculate estimated electricity bills
 - 🧮 Simple electricity usage and bill calculator
 - 🖥️ User-friendly web interface
+
+## 🛠️ Technologies Used
+
+- **Backend:** Python, Django
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** SQLite
+- **Development Tool:** Visual Studio Code
