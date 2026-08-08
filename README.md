@@ -42,3 +42,52 @@ Smart_Electricity_Monitor/
 ├── templates/
 ├── .gitignore
 └── README.md
+
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/rauzatul-jannah/SmartElectricityMonitor.git
+cd SmartElectricityMonitor
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activate the virtual environment
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+### 4. Install Django
+
+```bash
+pip install django
+```
+
+### 5. Run database migrations
+
+```bash
+cd smartelectricitymonitor
+python manage.py migrate
+```
+
+### 6. Start the development server
+
+```bash
+python manage.py runserver
+```
+
+Open your browser and visit:
+
+```text
+http://127.0.0.1:8000/
+```
