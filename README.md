@@ -9,3 +9,13 @@ Smart Electricity Monitor helps users understand their electricity
 consumption by allowing them to add appliances, enter their power usage
 and operating hours, and calculate estimated energy consumption and
 electricity costs.
+
+## ✨ Features
+
+- 🔌 Add and manage electrical appliances
+- ⚡ Calculate appliance-wise energy consumption
+- 🕒 Track daily appliance usage
+- 📊 Estimate monthly electricity consumption
+- 💰 Calculate estimated electricity bills
+- 🧮 Simple electricity usage and bill calculator
+- 🖥️ User-friendly web interface
