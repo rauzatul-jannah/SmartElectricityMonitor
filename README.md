@@ -126,3 +126,13 @@ _Add a screenshot showing the appliance list or add appliance page here._
 ### Bill Calculator
 
 _Add a screenshot showing the electricity bill calculator here._
+
+## 🚀 Future Improvements
+
+- 🤖 Add AI/ML-based electricity consumption prediction
+- 📈 Add interactive electricity usage analytics and charts
+- 💡 Provide personalized energy-saving recommendations
+- 🔔 Add alerts for unusually high electricity consumption
+- 🔐 Improve authentication and user profile management
+- 🌐 Build REST APIs for application data
+- ☁️ Deploy the application to a cloud platform
