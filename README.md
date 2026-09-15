@@ -136,3 +136,12 @@ _Add a screenshot showing the electricity bill calculator here._
 - 🔐 Improve authentication and user profile management
 - 🌐 Build REST APIs for application data
 - ☁️ Deploy the application to a cloud platform
+
+## 👩‍💻 Author
+
+**Rauzatul Jannah**
+
+MCA Student | Aspiring Python Full Stack Developer
+
+- GitHub: [rauzatul-jannah](https://github.com/rauzatul-jannah)
+- LinkedIn: [Rauzatul Jannah](https://www.linkedin.com/in/rauzatul-jannah-0aa28b340/)
