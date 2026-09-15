@@ -112,3 +112,17 @@ http://127.0.0.1:8000/
 | **Database** | SQLite |
 | **Development Tool** | Visual Studio Code |
 | **Version Control** | Git, GitHub |
+
+## 📸 Screenshots
+
+### Home Page
+
+_Add a screenshot of the home page here._
+
+### Appliance Management
+
+_Add a screenshot showing the appliance list or add appliance page here._
+
+### Bill Calculator
+
+_Add a screenshot showing the electricity bill calculator here._
