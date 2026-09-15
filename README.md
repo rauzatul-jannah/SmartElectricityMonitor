@@ -103,4 +103,12 @@ http://127.0.0.1:8000/
 - 🗄️ SQLite database integration
 - 🔐 Django-based application structure
 
-  
+  ## 🛠️ Technologies Used
+
+| Category | Technologies |
+|----------|--------------|
+| **Backend** | Python, Django |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Database** | SQLite |
+| **Development Tool** | Visual Studio Code |
+| **Version Control** | Git, GitHub |
