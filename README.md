@@ -91,3 +91,16 @@ Open your browser and visit:
 ```text
 http://127.0.0.1:8000/
 ```
+
+## ✨ Features
+
+- 🔌 Add and manage household appliances
+- ⚡ Calculate appliance-wise electricity consumption
+- 🧮 Estimate monthly electricity usage
+- 💰 Calculate estimated electricity bills
+- 📊 Monitor electricity consumption
+- 🏠 Simple and user-friendly interface
+- 🗄️ SQLite database integration
+- 🔐 Django-based application structure
+
+  
